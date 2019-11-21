@@ -1,0 +1,23 @@
+{
+  "name": "@dylburger/umask",
+  "version": "0.0.1",
+  "description": "Provides a read-only stub of process.umask() in environments where it's not available (e.g. worker threads in Node v10)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylburger/umask-patch.git"
+  },
+  "keywords": [
+    "process.umask",
+    "umask"
+  ],
+  "author": "Dylan J Sather",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dylburger/umask-patch/issues"
+  },
+  "homepage": "https://github.com/dylburger/umask-patch#readme"
+}
